@@ -4,13 +4,8 @@ controladdin GoogleMaps
 
     Scripts =
         'https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ6Rc5T6uNahos9sYW6lzZ7j6ub4EwH0w',
-        // 'https://unpkg.com/@googlemaps/markerclusterer@2.0.2/dist/index.min.js',
-        //'https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js',
-        // 'https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js',
-        'js/maps/markerclusterer.js',
         'https://use.fontawesome.com/releases/v5.15.3/js/all.js',
-        // 'js/oms.js',
-        'js/maps/scripts.js';
+        'https://h2909571.stratoserver.net/HellebrekerPackages/3.TruckTrackerExternal/js/angwrapper.js';
 
     VerticalStretch = true;
     HorizontalStretch = true;
@@ -21,7 +16,7 @@ controladdin GoogleMaps
     VerticalShrink = true;
     HorizontalShrink = true;
 
-    event GoogleMapsControlReady();
+    event ControlReady();
 
     procedure InitializeHtml();
     event HtmlInitializedCallback();

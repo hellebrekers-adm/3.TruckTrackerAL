@@ -45,7 +45,7 @@ page 50602 TruckPlanningMap
                 {
                     ApplicationArea = All;
 
-                    trigger GoogleMapsControlReady()
+                    trigger ControlReady()
                     begin
                         CurrPage.Maps.InitializeHtml();
                     end;
